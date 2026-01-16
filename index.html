@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Claim Built</title>
+
+    <!-- Tailwind CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <!-- Google Fonts for Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+
+<body>
+    <header>
+        <!-- Main navigation container -->
+        <nav
+            class="relative flex w-full  items-center justify-between bg-zinc-50 py-2 shadow-dark-mild dark:bg-neutral-700 lg:py-4">
+            <div class="flex w-full items-center justify-between px-3">
+                <div class="flex items-center">
+                    <a href="index.html" class="flex items-center gap-1">
+                        <img class="h-[50px]" src="xpert_logo.webp" alt="XPERT-Logo" />
+                        <span class="text-black font-bold text-[20px]">
+                            XpertERP
+                        </span>
+                    </a>
+                    <span class="hidden md:inline text-black/60 ml-3">
+                        | MicroMerger (Pvt.) Ltd
+                    </span>
+                </div>
+
+                <div class="flex items-center gap-2">
+                    <button type="button"
+                        class="hidden md:inline-flex rounded bg-green-800 text-white px-4 py-2 text-xs font-medium uppercase">
+                        <i class="fas fa-download"></i>
+                        Download Manual
+                    </button>
+                    <button type="button"
+                        class="hidden md:inline-flex rounded border-2 border-gray-200 bg-white-800 hover:border-gray-400 text-gray px-4 py-2 text-xs font-medium uppercase">
+                        <i class="fas fa-bell"></i>
+                        Commpany policies
+                    </button>
+                    <a href="profile.html" class="flex items-center gap-3">
+                        <!-- Avatar -->
+                        <img src="https://tecdn.b-cdn.net/img/new/avatars/2.jpg"
+                            class="rounded-full w-10 h-10 object-cover" alt="User Avatar" />
+
+                        <!-- Texts stacked vertically -->
+                        <div class="flex flex-col">
+                            <span class="text-gray-800 font-medium">Hira Mumtaz</span>
+                            <span class="text-gray-500 text-sm">EMP-MM-OO44</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="flex flex-col md:flex-row bg-gray-100">
+            <!-- Left Sidebar -->
+            <aside class="hidden md:block w-25 bg-white shadow-md">
+                <!-- Sidebar content -->
+                <div class="flex flex-wrap gap-2 m-3">
+                    <button type="button"
+                        class="flex flex-col items-center justify-center  w-22 h-20 rounded-[12px] md:rounded-[20px] bg-green-800/20 px-4 py-3 text-[12px] font-medium">
+                        <i data-lucide="house"></i>
+                        <span>Home</span>
+                    </button>
+                    <button type="button"
+                        class="flex flex-col items-center justify-center w-22 h-20 rounded-[20px] bg-white px-4 py-3 text-[12px] font-medium hover:bg-green-800/20 focus:bg-green-800/20">
+                        <i data-lucide="inbox"></i>
+                        <span>inbox</span>
+                    </button>
+                    <button type="button"
+                        class="flex flex-col items-center justify-center w-22 h-20 rounded-[20px] bg-white px-4 py-3 text-[12px] font-medium hover:bg-green-800/20 focus:bg-green-800/20">
+                        <i data-lucide="file-sliders"></i>
+                        <span>Request</span>
+                    </button>
+                    <button type="button"
+                        class="flex flex-col items-center justify-center w-22 h-20 rounded-[20px] bg-white px-4 py-3 text-[12px] font-medium hover:bg-green-800/20 focus:bg-green-800/20">
+                        <i data-lucide="user-pen"></i>
+                        <span>Team</span>
+                    </button>
+                    <button type="button"
+                        class="flex flex-col items-center justify-center w-22 h-20 rounded-[12px] md:rounded-[20px] bg-white px-4 py-3 text-[12px] font-medium hover:bg-green-800/20 focus:bg-green-800/20">
+                        <i data-lucide="database"></i>
+                        <span>HR Data</span>
+                    </button>
+                    <button type="button"
+                        class="flex flex-col items-center justify-center w-22 h-20 rounded-[20px] bg-white px-4 py-3 text-[12px] font-medium hover:bg-green-800/20 focus:bg-green-800/20">
+                        <i data-lucide="settings"></i>
+                        <span>Setting</span>
+                    </button>
+                    <button type="button"
+                        class="flex flex-col items-center justify-center w-22 h-20 rounded-[20px] bg-white px-4 py-3 text-[12px] font-medium hover:bg-green-800/20 focus:bg-green-800/20">
+                        <i data-lucide="square-menu"></i>
+                        <span>Report</span>
+                    </button>
+                </div>
+            </aside>
+            <!-- Main Content Area -->
+            <div class="flex flex-col flex-1">
+                <!-- Top Navbar -->
+                <div class="bg-green-900 text-white px-4 py-3 min-h-[130px] flex justify-between items-center">
+                    <!-- Navbar content -->
+                    <div>
+                        <h2 class="font-bold text-[25px] ml-6 ">Helo Hira!</h2>
+                        <p class="text-gray\80 text-3 ml-6">Good Afternoon</p>
+                    </div>
+                    <div>
+                        <h2>Fri,9 January 2026</h2>
+                    </div>
+                </div>
+                <!-- Navbar 2 -->
+                <div
+                    class="flex flex-wrap md:flex-nowrap items-center gap-4 md:gap-6 px-4 md:px-6 py-2 md:py-4 -mt-3 ml-0 md:ml-9 bg-white rounded-[9px] border-2 border-gray-300 shadow-md w-full md:w-[900px] min-h-[55px]">
+                    <button class=" flex items-center gap-2 hover:text-green-700">
+                        <i class="fa-solid fa-pen"></i>
+                        <span class="hidden md:inline">Apply for Leave</span>
+
+                        <!-- Mobile text -->
+                        <span class="md:hidden">Leave</span>
+                    </button>
+                    <button class="flex items-center gap-2 hover:text-green-700">
+                        <i class="fa-solid fa-paper-plane"></i>
+
+                        <span class="hidden md:inline">Submit Expense Claim</span>
+
+                        <!-- Mobile text -->
+                        <span class="md:hidden">Expense Claim</span>
+                    </button>
+                    <div class="relative">
+                        <button id="downloadBtn" class="flex items-center gap-2 hover:text-green-700">
+                            Download
+                            <i class="fa-solid fa-chevron-down text-xs"></i>
+                        </button>
+                        <!-- Dropdown menu (hidden by default) -->
+                        <ul id="downloadMenu"
+                            class="absolute top-full mt-2 w-40 bg-white border border-gray-300 rounded shadow-lg hidden ">
+                            <li class="px-4 py-2 hover:bg-gray-100 cursor-pointer">PDF</li>
+                            <li class="px-4 py-2 hover:bg-gray-100 cursor-pointer">DOCX</li>
+                            <li class="px-4 py-2 hover:bg-gray-100 cursor-pointer">ZIP</li>
+                        </ul>
+                    </div>
+
+                    <button class="flex items-center gap-2 text-red-600 hover:text-red-700">
+                        <i class="fa-solid fa-triangle-exclamation"></i>
+                        Report Wrong Doing
+                    </button>
+                    <button class="flex items-center gap-2 text-gray-700 hover:text-green-700">
+                        <i class="fa-solid fa-headset"></i>
+                        Request Support
+                    </button>
+                </div>
+
+                <!-- Body Content -->
+                <div class="flex ">
+                    <!-- Card -->
+                    <div class="flex flex-1">
+
+                        <div class="flex-1 p-6 ">
+                            <!-- Notifications / Feed cards -->
+                            <div class="flex justify-between items-center mb-6">
+                                <h1 class="text-[24px] font-bold">Feed</h1>
+                                <button
+                                    class="border px-4 py-2 rounded-[9px] text-[16px] hover:bg-gray-200 flex items-center gap-2">
+                                    <i class="fa-solid fa-arrows-rotate"></i> Refresh
+                                </button>
+                            </div>
+                            <div class=" flex flex-col gap-[30px]">
+                                <!-- Card 1 -->
+                                <div class=" bg-white rounded-lg shadow p-6">
+                                    <div class="flex justify-between">
+                                        <div class="flex flex-1 gap-2">
+                                            <div
+                                                class="w-10 h-10 min-w-[40px] min-h-[40px] bg-purple-500 rounded-full flex items-center justify-center text-white">
+                                                👤
+                                            </div>
+                                            <div>
+                                                <h2 class="font-semibold">Professional Conduct Reminder</h2>
+                                                <p class="text-sm text-gray-500">HR Department • 3w ago</p>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <span class="bg-purple-100 text-purple-600 text-xs px-3 py-1 rounded-full">
+                                                ⭐ Featured
+                                            </span>
+                                        </div>
+
+                                    </div>
+                                    <div class="mt-4 text-gray-700 space-y-3">
+                                        <p class="font-semibold pb-[40px]">Professional Conduct</p>
+
+                                        <p>Dear Team Member</p>
+                                        <p>You are kindly advised to verify information before sharing.</p>
+                                        <p>
+                                            Spreading <span class="font-bold">unverified or misleading
+                                                information</span>
+                                            that may cause confusion or panic is strictly discouraged.
+                                        </p>
+                                        <p>Responsible communication is part of our professional ethics.</p>
+                                        <p>Regards,</p>
+                                    </div>
+                                </div>
+                                <!-- card 2 -->
+                                <div class=" bg-white rounded-lg shadow p-6">
+                                    <div class="flex justify-between">
+                                        <div class="flex flex-1 gap-2">
+                                            <div
+                                                class="w-10 h-10 min-w-[40px] min-h-[40px] bg-purple-500 rounded-full flex items-center justify-center text-white">
+                                                👤
+                                            </div>
+                                            <div>
+                                                <h2 class="font-semibold">Professional Conduct Reminder</h2>
+                                                <p class="text-sm text-gray-500">HR Department • 3w ago</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="mt-4 text-gray-700 space-y-3">
+                                        <p class="font-semibold pb-[40px]">Professional Conduct</p>
+
+                                        <p>Dear Team Member</p>
+                                        <p>You are kindly advised to verify information before sharing.</p>
+                                        <p>
+                                            Spreading <span class="font-bold">unverified or misleading
+                                                information</span>
+                                            that may cause confusion or panic is strictly discouraged.
+                                        </p>
+                                        <p>Responsible communication is part of our professional ethics.</p>
+                                        <p>Regards,</p>
+                                    </div>
+                                </div>
+
+                                <div class=" bg-white rounded-lg shadow p-6">
+                                    <div class="flex justify-between">
+                                        <div class="flex flex-1 gap-2">
+                                            <div
+                                                class="w-10 h-10 min-w-[40px] min-h-[40px] bg-purple-500 rounded-full flex items-center justify-center text-white">
+                                                👤
+                                            </div>
+                                            <div>
+                                                <h2 class="font-semibold">Professional Conduct Reminder</h2>
+                                                <p class="text-sm text-gray-500">HR Department • 3w ago</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="mt-4 text-gray-700 space-y-3">
+                                        <p class="font-semibold pb-[40px]">Professional Conduct</p>
+
+                                        <p>Dear Team Member</p>
+                                        <p>You are kindly advised to verify information before sharing.</p>
+                                        <p>
+                                            Spreading <span class="font-bold">unverified or misleading
+                                                information</span>
+                                            that may cause confusion or panic is strictly discouraged.
+                                        </p>
+                                        <p>Responsible communication is part of our professional ethics.</p>
+                                        <p>Regards,</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+
+                    </div>
+                    <!-- Right Sidebar -->
+                    <aside class="hidden md:block w-64 bg-white p-4 border-l">
+                        <!-- Attendance Calendar -->
+                        <h2 class="font-semibold text-lg mb-4">Attendance Calendar</h2>
+                        <div class="border rounded-[8px] p-3 bg-gray-50 mb-4 text-sm">
+                            <h3 class="font-semibold mb-2">January 2026 Summary</h3>
+                            <div>
+                                <div class="flex justify-between">
+                                    <span>Present:</span><span class="font-semibold">10</span>
+                                </div>
+                                <div class="flex justify-between">
+                                    <span>Absent:</span><span class="font-semibold">0</span>
+                                </div>
+                                <div class="flex justify-between">
+                                    <span>Leave:</span><span class="font-semibold">0</span>
+                                </div>
+                                <div class="flex justify-between">
+                                    <span>Holiday:</span><span class="font-semibold">9</span>
+                                </div>
+                                <div class="flex justify-between font-semibold mb-4 ">
+                                    <span>Total Working Days:</span><span>22</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Filters -->
+                        <div class="flex flex-row gap-2">
+                            <select class="border rounded px-2 py-1 hover:border-gray-100 w-full">
+                                <option>2026</option>
+                            </select>
+                            <select class="border rounded px-2 py-1 hover:border-gray-100 w-full">
+                                <option>Jan</option>
+                            </select>
+                            <select class="border rounded px-2 py-1 hover:border-gray-100 w-full">
+                                <option>Month</option>
+                            </select>
+                        </div>
+                        <!-- Days -->
+                        <div class="grid grid-cols-7 text-center text-xs font-medium text-gray-500 mb-2">
+                            <div>Su</div>
+                            <div>Mo</div>
+                            <div>Tu</div>
+                            <div>We</div>
+                            <div>Th</div>
+                            <div>Fr</div>
+                            <div>Sa</div>
+                        </div>
+                        <div class="grid grid-cols-7 gap-2 text-center text-sm">
+                            <!-- Previous Month -->
+                            <div class="text-gray-300">28</div>
+                            <div class="text-gray-300">29</div>
+                            <div class="text-gray-300">30</div>
+                            <div class="text-gray-300">31</div>
+
+                            <!-- Dates -->
+                            <div>
+                                <div>01</div>
+                                <span class="text-green-600 text-xs">● P</span>
+                            </div>
+                            <div>
+                                <div>02</div>
+                                <span class="text-green-600 text-xs">● P</span>
+                            </div>
+                            <div>
+                                <div>03</div>
+                                <span class="text-orange-500 text-xs">● H</span>
+                            </div>
+
+                            <div>
+                                <div>04</div>
+                                <span class="text-orange-500 text-xs">● H</span>
+                            </div>
+                            <div>
+                                <div>05</div>
+                                <span class="text-green-600 text-xs">● P</span>
+                            </div>
+                            <div>
+                                <div>06</div>
+                                <span class="text-green-600 text-xs">● P</span>
+                            </div>
+                            <div>
+                                <div>07</div>
+                                <span class="text-green-600 text-xs">● P</span>
+                            </div>
+
+                            <div>
+                                <div>08</div>
+                                <span class="text-green-600 text-xs">● P</span>
+                            </div>
+                            <div>
+                                <div>09</div>
+                                <span class="text-green-600 text-xs">● P</span>
+                            </div>
+                            <div>
+                                <div>10</div>
+                                <span class="text-orange-500 text-xs">● H</span>
+                            </div>
+                            <div>
+                                <div>11</div>
+                                <span class="text-orange-500 text-xs">● H</span>
+                            </div>
+                            <div>
+                                <div>12</div>
+                                <span class="text-orange-500 text-xs">● p</span>
+                            </div>
+                            <div>
+                                <div>13</div>
+                                <span class="text-orange-500 text-xs">● p</span>
+                            </div>
+                            <!-- Active Day -->
+
+                            <div class="col-start-4">
+                                <div
+                                    class="bg-green-700 text-white rounded-full w-8 h-8  flex items-center justify-center">
+                                    14
+                                </div>
+                            </div>
+
+                            <div>
+                                <div>15</div>
+                                <span class="text-orange-500 text-xs">● P</span>
+                            </div>
+                            <div>
+                                <div>16</div>
+                                <span class="text-orange-500 text-xs">● P</span>
+                            </div>
+                            <div>
+                                <div>17</div>
+                                <span class="text-orange-500 text-xs">● P</span>
+                            </div>
+                            <div>
+                                <div>18</div>
+                                <span class="text-orange-500 text-xs">● P</span>
+                            </div>
+                            <div>
+                                <div>19</div>
+                                <span class="text-orange-500 text-xs">● P</span>
+                            </div>
+                            <div>
+                                <div>20</div>
+                                <span class="text-orange-500 text-xs">● P</span>
+                            </div>
+                            <div>
+                                <div>21</div>
+                                <span class="text-orange-500 text-xs">● P</span>
+                            </div>
+                            <div>
+                                <div>22</div>
+                                <span class="text-orange-500 text-xs">● P</span>
+                            </div>
+                            <div>
+                                <div>23</div>
+                                <span class="text-orange-500 text-xs">● P</span>
+                            </div>
+                            <div>
+                                <div>24</div>
+                                <span class="text-orange-500 text-xs">● P</span>
+                            </div>
+                    </aside>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
